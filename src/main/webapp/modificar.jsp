@@ -20,7 +20,6 @@
         
         <form action="MainServlet" method="post">
             
-            
                     <input type="hidden" name="id" value="<%= reg.getId() %>">
                
                     Nombre del estudiante: <input type="text" name="nombre" value="<%= reg.getNombre()  %>">
